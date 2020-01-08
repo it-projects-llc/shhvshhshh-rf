@@ -3,11 +3,11 @@
     "logo" : "logo.png",
     "links" : [
         {
-            "title" : "Solutions",
-            "href" : "#solutions"
+            "title" : "Документация",
+            "href" : "#features"
         },
         {
-            "title" : "Contact",
+            "title" : "Обратная связь",
             "href" : "#contact"
         }
     ]
