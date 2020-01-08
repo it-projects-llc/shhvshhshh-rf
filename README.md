@@ -32,6 +32,7 @@ Source of the https://щвщщ.рф website
 * preview updates
 * send pull request to this repo
 
+
 ### To update theme
 
 * check folder ``doc-src/themes/``
@@ -42,8 +43,10 @@ Source of the https://щвщщ.рф website
 * wait while the pull request is merged
 * update theme version
 
-       # TODO check the instruction
-       git submodule update
+       cd doc-src/themes/THEME
+       git fetch origin
+       git checkout origin/master
+       cd ..
        git commit -a -m "theme updated"
 
 * send pull request to this repo
